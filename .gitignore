@@ -1,0 +1,13 @@
+# dependencies
+/env
+
+# environmental variable
+.env
+
+# Django specific
+__pycache__
+
+# Custom test file for dev
+test.py
+
+notes.txt

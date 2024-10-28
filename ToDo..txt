@@ -1,0 +1,29 @@
+Authentication:
+    1. Implement Logout for Token Based
+    11. Use env vars for serverURL
+    15. Document save after all witness approval
+    16. Server allowed localhost, remove localhost
+    17. Test closed_on date that does it sets proper date or timezone problem is there in views 
+    18. Expired Safety observation
+    19. user ids are exposed through serializers
+    20. Inspection - comments to comments/remarks 
+    21. Subcontractor should be able to view only his permits
+
+
+frontend:
+    8. Loading animation in my every page, users table switching between columns
+    20. AFTER FIXING COLUMN BOX is before BEFORE FIXING COLUMN BOX in inspection ? pour card column concrete
+    21. Make component for witness
+    22. National id type and id number fields are not added
+    23. Edit for user
+    24. Change <FORM-NAME>Table to just table
+    25. Bring checked by to witness table
+    27. Grey color in select field
+
+
+Test Cases:
+    1. If object is deleted would the corresponding media file deleted in cloudinary
+    2. Work_site should not be updatable
+    4. Test accross different throttle speed - frontend
+    5. cheque additional fields are working properly in all models
+
