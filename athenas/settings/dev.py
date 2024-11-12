@@ -20,10 +20,13 @@ CORS_ALLOWED_ORIGINS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'athenas',
-        'USER': 'postgres',
-        'PASSWORD': 'sri#postgres1',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME':config 'athenas',
+        'USER':config 'postgres',
+        'PASSWORD': config'newpassword',
+        'HOST':config 'localhost',
+        'PORT':config '5432',
+# Allow connections only from localhost
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+
     }
 }
